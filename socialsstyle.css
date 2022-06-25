@@ -1,0 +1,123 @@
+body {
+
+    background-image: url('images/grasstop01.png');
+    background-position: center;
+    background-color: blueviolet;
+}
+
+.mainstuff{
+    background-image: url(images/oil.png);
+        background-color: black;
+    color: white;
+font-family: Comic Sans MS;
+    padding-left: 90px
+            padding-left: 125px;
+        width: 800px;
+    border: 10px solid #FF785A;
+    padding: 20px;
+    margin:0px;
+}
+
+
+h1{
+    font-family: inherit;
+    color: black;
+
+width: 300px;
+    border: 15px solid #FF785A;
+    padding: 50px;
+    margin:20px;
+    background-color: orange
+}
+
+h2{
+    font-family: inherit;
+    color: black;
+    font-size: 16px;
+
+    
+    
+width: 125px;
+    border: 10px solid #FF785A;
+    padding: 10px;
+    margin:20px;
+    background-color: orange
+}
+
+center{
+    
+}
+
+
+/* The sidebar menu */
+.sidenav {
+
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: aqua;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 8px;
+    font-family: Comic Sans MS;
+  text-decoration: none;
+  font-size: 16px;
+  color:black;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: blue;
+    font-family: cursive;
+    animation: pop 0.15s linear 1;
+}
+
+@keyframes pop{
+  50%  {transform: scale(1.1);}
+}
+
+
+.rightsideimagery{
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 40px;
+}
+
+.sockbottom{
+    position: fixed;
+    bottom:0;
+        right:0;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.bottomstuff{
+padding: 5px;
+    padding-top: 20px;
+    color: white;
+    font-family: wingdings;
+    font-size: 20;
+}
